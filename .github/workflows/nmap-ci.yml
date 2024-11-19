@@ -16,4 +16,4 @@ jobs:
         run: bash -n script.sh
 
       - name: Execute Nmap Script
-        run: ./script.sh 127.0.0.1
+        run: ./script.sh 
