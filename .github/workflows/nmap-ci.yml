@@ -1,4 +1,4 @@
-name: Nmap Script CI/CD Pipeline
+name: Nmap Script CI/CD Pipeline 2
 
 on:
   push:
@@ -16,4 +16,5 @@ jobs:
         run: bash -n script.sh
 
       - name: Execute Nmap Script
-        run: ./script.sh 
+        run: ./script.sh
+
